@@ -1,17 +1,17 @@
 # Atomic-Red-Team-Bluespawn
 (Antisyphon training lab from Cyber Deception/Active Defense)
 ## Bluespawn
-- Start by disabling Defender in an admin PowerShell window 
+- Start by disabling Windows Defender in an admin PowerShell window:
 <pre>Set-MpPreference -DisableRealtimeMonitoring $true</pre>
 - From cmd we can start Bluespawn within the Antisyphon environment
 <pre>cd \IntroLabs</pre> 
 <pre>BLUESPAWN-client-x64.exe --monitor --level Cursory</pre>
 <img width="800" alt="Screenshot 2025-03-29 at 12 30 39 PM" src="https://github.com/user-attachments/assets/2efe87e3-0024-4489-8ba1-c84e8a322ff5" /> <br>
 ## Atomic Red Team
-- Let's install Atomic Red Team in an admin PowerShell prompt
+- In an admin PowerShell prompt, install Atomic Red Team:
 <pre>cd \</pre>
 <pre>IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics -Force</pre>
-- This sets the right directory and installs the proper modules:
+- This sets the correct directory and installs the necessary modules:
 <pre>cd C:\AtomicRedTeam\invoke-atomicredteam\</pre>
 <pre>Install-Module -Name powershell-yaml</pre>
 <pre>Import-Module .\Invoke-AtomicRedTeam.psm1</pre>
