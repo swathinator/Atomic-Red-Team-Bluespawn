@@ -1,4 +1,4 @@
-# Atomic-Red-Team-Bluespawn
+# Atomic Red Team & Bluespawn
 (Antisyphon training lab from Cyber Deception/Active Defense)
 ## Bluespawn
 - Start by disabling Windows Defender in an admin PowerShell window:
