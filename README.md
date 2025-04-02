@@ -1,5 +1,6 @@
 # Atomic Red Team & Bluespawn
-(Antisyphon training lab from Cyber Deception/Active Defense)
+(Antisyphon training lab from Cyber Deception/Active Defense)<br><br>
+Full lab explanation available on my <a href="https://medium.com/@swathitadepalli/active-defense-and-cyber-deception-antisyphon-training-44c0ee851be4#5603">Medium</a>
 ## Bluespawn
 - Start by disabling Windows Defender in an admin PowerShell window:
 <pre>Set-MpPreference -DisableRealtimeMonitoring $true</pre>
