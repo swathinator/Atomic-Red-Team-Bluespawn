@@ -23,4 +23,5 @@ Full lab explanation available on my <a href="https://medium.com/@swathitadepall
 - In Bluespawn, we can see which detections are firing and which are not. This allows us to conduct detection engineering gap analysis. <br><br>
 <img width="800" alt="Screenshot 2025-03-29 at 12 56 23 PM" src="https://github.com/user-attachments/assets/6b658db4-d6ee-48e8-884c-d67a2ee7a0d7" /><br>
 - Clean up command:
-<pre>Invoke-AtomicTest All -Cleanup</pre>
+<pre>Invoke-AtomicTest All -Cleanup</pre><br><br>
+<a href="https://github.com/swathinator/Homelabs">Back to Homelabs</a>
